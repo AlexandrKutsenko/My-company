@@ -171,6 +171,46 @@ main .main__about {
     margin-bottom: 15px;
 }
 
+.main__clients {
+    background: black;
+    padding: 100px 0 100px 0;
+    color: white;
+    text-align: center;
+}
+.main__clients h1 {
+    font-weight: lighter;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.text-normal {
+    font-weight: bold;
+}
+.main__clients img {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.main__testimonials {
+    background: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
+.main__testimonials h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 44px;
+}
+.text-lighter {
+    font-weight: lighter;
+}
+.main__testimonials p {
+    margin-bottom: 50px;
+}
+.testimotional {
+    text-transform: uppercase;
+}
+
 
 
 
@@ -263,6 +303,9 @@ main .main__about {
     }
     .line {
         left: 43%;
+    }
+    .main__clients h1 {
+        font-size: 33px;
     }
 }
 @media screen and (max-width: 768px) {
