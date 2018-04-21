@@ -190,6 +190,22 @@ main .main__about {
     margin-bottom: 50px;
 }
 
+.main__gallery {
+    text-align: center;
+    padding: 100px 0;
+}
+.main__gallery h1 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.main__gallery p {
+    margin-bottom: 100px;
+    color: #6c6c6c;
+}
+.main__gallery img:hover {
+    opacity: 0.8;
+}
+
 .main__testimonials {
     background: black;
     text-align: center;
@@ -306,6 +322,15 @@ main .main__about {
     }
     .main__clients h1 {
         font-size: 33px;
+    }
+    .line1 img:not(:first-child) {
+        display: none;
+    }
+    .line2 img:not(:first-child) {
+        display: none;
+    }
+    .line3 img:not(:first-child) {
+        display: none;
     }
 }
 @media screen and (max-width: 768px) {
