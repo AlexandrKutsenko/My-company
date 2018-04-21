@@ -106,6 +106,7 @@ main .main__about {
 .mw-100 {
     max-width: 100%;
 }
+
 .main__team {
     background: black;
     text-align: center;
@@ -150,6 +151,28 @@ main .main__about {
     font-weight: lighter;
 }
 
+.main__services h1 {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.main__services p {
+    text-align: center;
+    color: #6c6c6c;
+    margin-bottom: 100px;
+}
+.services__cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.services__card h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
 
 
 
@@ -163,6 +186,12 @@ main .main__about {
 @media screen and (max-width: 1150px) {
     nav {
         margin-left: 10%;
+    }
+    .services__cards {
+        grid-template-columns: auto auto;
+    }
+    .main__services p {
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width: 1010px) {
@@ -234,5 +263,10 @@ main .main__about {
     }
     .line {
         left: 43%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .services__cards {
+        grid-template-columns: auto;
     }
 }
