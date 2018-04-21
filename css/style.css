@@ -227,8 +227,63 @@ main .main__about {
     text-transform: uppercase;
 }
 
-
-
+.main__contact-form {
+    text-align: center;
+    padding: 100px 0;
+}
+.contact-wrapper {
+    width: 750px;
+    margin: 0 auto;
+    color: black;
+}
+.main__contact-form h1 {
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.main__contact-form p {
+    text-align: left;
+}
+.main__contact-form .contact-description {
+    margin-bottom: 100px;
+    color: #6c6c6c;
+    text-align: center;
+}
+input {
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.red {
+    color: red;
+}
+.form__inputs {
+    display: flex;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+}
+input, textarea {
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.button__block {
+    display: flex;
+    justify-content: center;
+}
+input[type=submit] {
+    width: 165px;
+    height: 40px;
+    background: #fcac45;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+input[type=submit]:hover {
+    background: #f69952;
+}
 
 
 
